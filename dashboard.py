@@ -9,7 +9,7 @@ sns.set(style='dark')
 st.title("Analisis Data E-Commerce")
 
 # Membaca data
-df = pd.read_csv("https://github.com/wizz-web/dashboardStreamlit/blob/main/main_data.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/wizz-web/dashboardStreamlit/refs/heads/main/main_data.csv")
 
 # Menampilkan preview data
 st.write("Preview Data:")
